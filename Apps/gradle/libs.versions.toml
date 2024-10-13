@@ -1,0 +1,53 @@
+[versions]
+agp = "8.5.0"
+cardview = "1.0.0"
+comAmulyakhareTextdrawable = "1.0.1"
+coreSplashscreen = "1.0.1"
+design = "28.0.0"
+designFloatingactionbutton = "28.0.0-alpha1"
+firebaseAuthCommon = "9.8.0"
+gradle = "7.3.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinStdlib = "1.9.22"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+materialdatetimepicker = "4.2.3'"
+materialdatetimepickerVersion = "4.2.3"
+materialVersion = "1.0.0"
+recyclerview = "1.3.2"
+runtime = "1.1.1"
+firebaseDatabase = "21.0.0"
+firebaseAuth = "23.0.0"
+
+[libraries]
+cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
+com-amulyakhare-textdrawable = { module = "com.amulyakhare:com.amulyakhare.textdrawable", version.ref = "comAmulyakhareTextdrawable" }
+compiler = { module = "android.arch.persistence.room:compiler", version.ref = "runtime" }
+core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+design = { module = "com.android.support:design", version.ref = "design" }
+design-floatingactionbutton = { module = "com.android.support:design-floatingactionbutton", version.ref = "designFloatingactionbutton" }
+firebase-auth-common = { module = "com.google.firebase:firebase-auth-common", version.ref = "firebaseAuthCommon" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlinStdlib" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-v100 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+materialdatetimepicker = { module = "com.wdullaer:materialdatetimepicker", version.ref = "materialdatetimepicker" }
+materialdatetimepicker-v423 = { module = "com.wdullaer:materialdatetimepicker", version.ref = "materialdatetimepickerVersion" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+runtime = { module = "android.arch.persistence.room:runtime", version.ref = "runtime" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

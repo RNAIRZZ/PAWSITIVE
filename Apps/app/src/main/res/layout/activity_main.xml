@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cat"> <!-- Replace with your background image -->
+
+    <!-- Container for centered content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <!-- Centered Welcome Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Pawsitive Health!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Select Doctor Button -->
+        <Button
+            android:id="@+id/buttonSelectDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Doctor"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="#FF1976D2"
+            android:padding="16dp" />
+    </LinearLayout>
+
+</FrameLayout>

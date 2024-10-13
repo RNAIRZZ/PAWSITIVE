@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1093597708465",
+    "project_id": "final-year-task-manager",
+    "storage_bucket": "final-year-task-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093597708465:android:cc4a66b33e8682f1072290",
+        "android_client_info": {
+          "package_name": "com.example.animalhealthcarefinalyearmajorproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8aQkjyhfXu2Vdn2bm3xcbNs5f36FZCJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
